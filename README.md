@@ -35,3 +35,20 @@ Avoid hitting obstacles. Survive as long as you can!
 1. Clone this repository:
    ```bash
    git clone https://github.com/YOUR_USERNAME/dino-runner-godot.git
+## 📂 Project Structure
+res://
+├── scenes/
+│   ├── dino.tscn
+│   ├── rock.tscn
+│   ├── stump.tscn
+│   ├── barrel.tscn
+│   ├── bird.tscn
+│   └── main.tscn
+├── scripts/
+│   ├── main.gd
+│   ├── dino.gd
+│   └── obstacle.gd
+├── assets/
+│   ├── sprites/
+│   └── sounds/
+└── README.md
